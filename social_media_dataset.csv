@@ -1,0 +1,71 @@
+text,sentiment,cleaned_text,text_length,word_count
+This product is amazing! I love it so much!,positive,product amaz love much,22,4
+"Great experience, will definitely buy again",positive,great experi definit buy,24,4
+Awesome quality and fast delivery,positive,awesom qualiti fast deliveri,28,4
+Best purchase I've ever made!,positive,best purchas ive ever made,26,5
+Very satisfied with the service,positive,satisfi servic,14,2
+"Excellent customer support, highly recommend",positive,excel custom support highli recommend,37,5
+"Good value for money, works perfectly",positive,good valu money work perfectli,30,5
+I'm so happy with this purchase,positive,im happi purchas,16,3
+"Fantastic product, exceeded my expectations",positive,fantast product exceed expect,29,4
+Loved it! Will tell my friends about this,positive,love tell friend,16,3
+"Perfect condition, arrived on time",positive,perfect condit arriv time,25,4
+"Superb quality, very impressive",positive,superb qualiti impress,22,3
+Great job team! Keep up the good work,positive,great job team keep good work,29,6
+Absolutely wonderful experience,positive,absolut wonder experi,21,3
+The best decision I made this year,positive,best decis made year,20,4
+"Nice product, works as described",positive,nice product work describ,25,4
+Happy customer here! 5 stars,positive,happi custom star,17,3
+"Brilliant innovation, very useful",positive,brilliant innov use,19,3
+Smooth experience from start to finish,positive,smooth experi start finish,26,4
+Highly satisfied with everything,positive,highli satisfi everyth,22,3
+"Terrible product, completely disappointed",negative,terribl product complet disappoint,34,4
+"Waste of money, doesn't work at all",negative,wast money doesnt work,22,4
+"Very bad experience, poor customer service",negative,bad experi poor custom servic,29,5
+"I hate this product, it's useless",negative,hate product useless,20,3
+"Worst purchase ever, regret buying",negative,worst purchas ever regret buy,29,5
+"Poor quality, broke within a week",negative,poor qualiti broke within week,30,5
+Not worth the price at all,negative,worth price,11,2
+Disappointed with the delivery delay,negative,disappoint deliveri delay,25,3
+"Bad customer support, no response",negative,bad custom support respons,26,4
+"Frustrating experience, would not recommend",negative,frustrat experi would recommend,31,4
+"Horrible product, absolute garbage",negative,horribl product absolut garbag,30,4
+Waste of time and money,negative,wast time money,15,3
+Very unhappy with this purchase,negative,unhappi purchas,15,2
+"This is pathetic, doesn't work",negative,pathet doesnt work,18,3
+Avoid this product at all costs,negative,avoid product cost,18,3
+"Completely useless, don't buy",negative,complet useless dont buy,24,4
+Terrible quality control,negative,terribl qualiti control,23,3
+Worst customer service ever,negative,worst custom servic ever,24,4
+I'm so angry with this product,negative,im angri product,16,3
+"Disgusting experience, zero stars",negative,disgust experi zero star,24,4
+The product arrived today,neutral,product arriv today,19,3
+"Average quality, nothing special",neutral,averag qualiti noth special,27,4
+It works fine for basic use,neutral,work fine basic use,19,4
+"Okay product, meets expectations",neutral,okay product meet expect,24,4
+Standard delivery time,neutral,standard deliveri time,22,3
+The package was medium sized,neutral,packag medium size,18,3
+Regular customer service interaction,neutral,regular custom servic interact,30,4
+Product as described in listing,neutral,product describ list,20,3
+Normal shopping experience,neutral,normal shop experi,18,3
+"It does the job, nothing more",neutral,job noth,8,2
+Fair price for what you get,neutral,fair price get,14,3
+Typical product in this category,neutral,typic product categori,22,3
+The color is blue as shown,neutral,color blue shown,16,3
+Standard features included,neutral,standard featur includ,22,3
+No major issues to report,neutral,major issu report,17,3
+Average performance overall,neutral,averag perform overal,21,3
+Usual packaging and delivery,neutral,usual packag deliveri,21,3
+Basic functionality works,neutral,basic function work,19,3
+Just another regular product,neutral,anoth regular product,21,3
+"Not bad, not great either",neutral,bad great either,16,3
+Really liked the new update! Works smoothly now.,positive,realli like new updat work smoothli,35,6
+"The app crashes sometimes, very annoying",negative,app crash sometim annoy,23,4
+Decent product for the price point,neutral,decent product price point,26,4
+Amazing! Will recommend to everyone,positive,amaz recommend everyon,22,3
+"Horrible UI, very confusing layout",negative,horribl ui confus layout,24,4
+Good but could be better,neutral,good could better,17,3
+Perfect! Exactly what I needed,positive,perfect exactli need,20,3
+Worse than previous version,negative,wors previou version,20,3
+Seems okay after the update,neutral,seem okay updat,15,3
+"Outstanding performance, very fast",positive,outstand perform fast,21,3
