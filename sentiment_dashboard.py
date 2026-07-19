@@ -6,7 +6,8 @@ import string
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import nltk
-import plotly.express as px
+
+from sentiment_batch import predict_dataframe
 
 nltk.download('stopwords', quiet=True)
 nltk.download('punkt', quiet=True)
@@ -48,5 +49,32 @@ try:
                 st.error("😠 Sentiment: Negative")
             else:
                 st.info("😐 Sentiment: Neutral")
+
+    st.markdown("### Batch CSV Analysis")
+    uploaded_file = st.file_uploader(
+        "Upload CSV with a text, tweet, full_text, content, comment, review, message, or caption column",
+        type=["csv"]
+    )
+
+    if uploaded_file:
+        df = pd.read_csv(uploaded_file)
+        try:
+            results = predict_dataframe(
+                df,
+                model=model,
+                vectorizer=vectorizer,
+                preprocess=preprocess_text,
+            )
+        except ValueError as error:
+            st.error(str(error))
+        else:
+            st.success(f"Analyzed {len(results)} rows")
+            st.dataframe(results.head())
+            st.download_button(
+                "Download Predictions",
+                data=results.to_csv(index=False).encode("utf-8"),
+                file_name="sentiment_predictions.csv",
+                mime="text/csv",
+            )
 except Exception as e:
     st.error(f"Error: {e}")
